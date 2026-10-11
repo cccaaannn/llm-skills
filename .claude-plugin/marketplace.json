@@ -1,0 +1,14 @@
+{
+  "name": "llm-skills",
+  "description": "Can's llm skill collection.",
+  "owner": {
+    "name": "Can Kurt"
+  },
+  "plugins": [
+    {
+      "name": "cccaaannn",
+      "source": "./",
+      "description": "Can's llm skill collection."
+    }
+  ]
+}
