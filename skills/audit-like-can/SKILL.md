@@ -3,6 +3,9 @@ name: audit-like-can
 description: Strict audit of the whole repo (or the given paths or globs) against Can's laws. Runs review-like-can on every line in scope, marks every violation, then adds a summary. Needs a clean working tree so every marker shows in git and is revertable.
 disable-model-invocation: true
 argument-hint: "[path or glob ...]"
+license: MIT
+metadata:
+  source: https://github.com/cccaaannn/llm-skills skills/audit-like-can
 ---
 
 1. Run `git status --porcelain`. If it prints anything, stop: tell the user the working tree must be clean (commit or stash first) and do nothing else.

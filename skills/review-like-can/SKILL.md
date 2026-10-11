@@ -1,6 +1,9 @@
 ---
 name: review-like-can
 description: Extremely strict review of the current changes against Can's laws. Marks each violation in the code and forces the author to fix it. Use before every handover, after finishing any feature or fix, and whenever asked to review like Can.
+license: MIT
+metadata:
+  source: https://github.com/cccaaannn/llm-skills skills/review-like-can
 ---
 
 # review-like-can
